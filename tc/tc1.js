@@ -23,7 +23,7 @@ document.writeln("				<p><span style=\'color:#f30;\'>请收藏！请收藏！请
 document.writeln("				<p>最新域名：0855i.com</p>");
 document.writeln("				<p>最新域名：0855i.com</p>");
 document.writeln("				<p>最新域名：0855i.com</p>");
-document.writeln("				<p><a href=\'https://cdn.jsdelivr.net/gh/fb999999/hdp/0855v1.2.1.apk\'><span style=\'color:#f30;\'>安卓用户点此下载APP看片更方便</span></a></p>");
+document.writeln("				<p><a href=\'https://cdn.jsdelivr.net/gh/fb999999/app/0855v1.2.1.apk\'><span style=\'color:#f30;\'>安卓用户点此下载APP看片更方便</span></a></p>");
 document.writeln("				<a onClick=\'closeGlobalAd();\' class=\'btn btn-default\' rel=\'nofollow\'>朕已阅</a>");
 document.writeln("			</div>");
 document.writeln("		</div>");
