@@ -993,7 +993,7 @@ hr{
             border-left: 6px dashed transparent;
             border-right: 6px dashed transparent;
         }        
-        .navbar-primary .navbar-nav > li.active > a::after{ margin: 0; left: 40px; }
+        .navbar-primary .navbar-nav > li.active > a::after{ margin: 0; left: 47px; }
 				.navbar-primary .navbar-nav > li:first-child.active > a::after{ margin: 0; left:12px; }	
 /* friend-link */
 .friend-link{ padding: 10px 0 0 0;}
