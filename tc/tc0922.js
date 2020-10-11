@@ -19,7 +19,6 @@ document.writeln("			</div>");
 document.writeln("			<div id=\'content\'>");
 document.writeln("				<p style=\'font-size: 16px;font-weight: bold;\'><span style=\'color:#f30;\'>网站公告</span></p>");
 document.writeln("				<p>9月22日最新域名如下</p>");
-document.writeln("				<p><span style=\'color:#f30;\'>速记：nb=牛逼</span></p>");
 document.writeln("				<p>最新域名：0855nb.com</p>");
 document.writeln("				<p>最新域名：0855nb.com</p>");
 document.writeln("				<p>最新域名：0855nb.com</p>");
