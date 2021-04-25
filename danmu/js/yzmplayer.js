@@ -975,8 +975,8 @@
 							e.infoPanel.triggle()
 						}
 					}, {
-						text: "0855发布页",
-						link: "https://0855fb.com"
+						text: "",
+						link: ""
 					}]), e
 			}
 		},
