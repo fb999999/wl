@@ -227,32 +227,25 @@ body {
 	background: #fff url(../daohang/img/youhuiquan.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
-
 .nav_con a:nth-of-type(2) {
-	background: #fff url(../daohang/img/xsp.png) no-repeat center .86rem;
+	background: #fff url(../daohang/img/zhibo.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
-
 .nav_con a:nth-of-type(3) {
-	background: #fff url(../daohang/img/weixin.png) no-repeat center .86rem;
-	background-size: 1.3rem 1.3rem;
-}
-
-.nav_con a:nth-of-type(4) {
 	background: #fff url(../daohang/img/liuyan.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
-.nav_con a:nth-of-type(5) {
+.nav_con a:nth-of-type(4) {
 	background: #fff url(../daohang/img/huancun.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
 
-.nav_con a:nth-of-type(6) {
+.nav_con a:nth-of-type(5) {
 	background: #fff url(../daohang/img/banben.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
-.nav_con a:nth-of-type(7) {
-	background: #fff url(../daohang/img/qd.png) no-repeat center .86rem;
+.nav_con a:nth-of-type(6) {
+	background: #fff url(../daohang/img/bz.png) no-repeat center .86rem;
 	background-size: 1.3rem 1.3rem;
 }
 footer {
