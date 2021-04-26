@@ -1,0 +1,304 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+h2,
+h3 {
+	font-weight: normal;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+input,
+select,
+textarea {
+	outline: none;
+	border: none;
+	background: none;
+}
+
+textarea {
+	resize: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+/*去除input默认样式*/
+
+input {
+	-webkit-appearance: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #f0f0f0;
+	font-family: "微软雅黑";
+	position: relative;
+    min-height: 100%;   
+    padding-bottom: 4.5rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+.header {
+	width: 100%;
+	background-color: #303030;
+	padding-bottom: 1rem;
+	position: relative;
+}
+
+.header a {
+	display: block;
+	font-size: .95rem;
+	color: #fff;
+	text-align: center;
+}
+
+.header img {
+	height: 3rem;
+	margin-top: .4rem;
+	margin-bottom: .3rem;
+}
+
+.header .close-btn {
+	position: absolute;
+	top: 3.7rem;
+	left: 15rem;
+	display: block;
+	width: 1.7rem;
+	height: 1.7rem;
+	background: url(../common/img/close_icon.png) no-repeat center center;
+	background-size: .7rem .7rem;
+}
+
+
+/*search*/
+
+.header .search-input {
+	background-color: #fff;
+	display: block;
+	width: 86%;
+	height: 1.7rem;
+	margin: 0 auto;
+	color: #000;
+	font-size: .7rem;
+	padding: 0 1.7rem 0 .4rem;
+	box-sizing: border-box;
+}
+
+.header .search-btn {
+	font-size: 0;
+	width: 100%;
+	text-align: center;
+	margin-top: .8rem;
+}
+
+.header .search-btn span {
+	font-size: .6rem;
+	padding: .3rem .3rem;
+	color: #fff;
+	background-color: #B9282F;
+	margin-left: 1rem;
+	letter-spacing: .1rem;
+	transition: padding-left 0.3s;
+}
+
+.header .search-btn span:first-child {
+	margin-left: 0;
+}
+
+.header .search-btn .active {
+	padding-left: .9rem;
+	background: #B9282F url(../common/img/active.png) no-repeat;
+	background-size: .5rem .5rem;
+	background-position: .2rem center;
+}
+
+
+/*nav*/
+
+.nav {
+	margin-top: .33rem;
+}
+
+.nav_header {
+	height: 1.83rem;
+	background-color: #fff;
+	padding-left: .5rem;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.nav_header .daily {
+	font-size: .7rem;
+	line-height: 1.83rem;
+	color: #B9282F;
+	font-weight: bold;
+}
+
+.nav_header .longxuan-search {
+	font-size: .7rem;
+	line-height: 1.83rem;
+	color: #B9282F;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: .5rem;
+}
+
+
+/*.nav_con{
+    margin-top: .03rem;
+
+}*/
+
+.nav_con a {
+	display: block;
+	width: 49.8%;
+	height: 4.2rem;
+	font-size: 0.62rem;
+	color: #666;
+	text-align: center;
+	padding-top: 2.6rem;
+	box-sizing: border-box;
+	float: left;
+	margin: .03rem .03rem 0 0;
+}
+
+.nav_con a:nth-of-type(1) {
+	background: #fff url(../daohang/img/youhuiquan.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+
+.nav_con a:nth-of-type(2) {
+	background: #fff url(../daohang/img/xsp.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+
+.nav_con a:nth-of-type(3) {
+	background: #fff url(../daohang/img/weixin.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+
+.nav_con a:nth-of-type(4) {
+	background: #fff url(../daohang/img/liuyan.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+.nav_con a:nth-of-type(5) {
+	background: #fff url(../daohang/img/huancun.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+
+.nav_con a:nth-of-type(6) {
+	background: #fff url(../daohang/img/banben.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+.nav_con a:nth-of-type(7) {
+	background: #fff url(../daohang/img/qd.png) no-repeat center .86rem;
+	background-size: 1.3rem 1.3rem;
+}
+footer {
+	height: 4rem;
+	background-color: #fff;
+	position: absolute; /* 这里是相对于body的定位 */ 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.64rem;
+	color: #666;
+	padding-top: 0.8rem;
+}
+
+footer p a {
+	font-size: 0.64rem;
+	color: #666;
+	margin: 0 0.4rem;
+}
+
+footer p:nth-of-type(2) {
+	padding-top: 0.5rem;
+}
+
+
+/* 双11活动 */
+.show-act {
+	width: 100%;
+	background-color: #F81131;
+	margin-top: .33rem;
+	position: relative;
+}
+
+.show-act a {
+	display: block;
+	text-align: center;
+	line-height: 3rem;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.show-act a img {
+/*	height: 3rem;*/
+	width: 100%;
+}
