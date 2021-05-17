@@ -351,7 +351,7 @@ textarea.form-control{height:100px}
 .macplus-content__playlist.full li{float:none;width:100%;margin-right:0}
 .macplus-content__playlist.column3 li{width:33.3333333%;padding:0 5px;margin-right:0}
 .macplus-content__playlist.column6 li{width:16.6666667%;padding:0 5px;margin-right:0}
-.macplus-content__playlist.column8 li{width:12.5%;padding: 0px 0px 0px 5px;margin-right:0;}
+.macplus-content__playlist.column8 li{width:12.5%;padding:0px 2.5px 0px 2.5px;margin-right:0;}
 .macplus-content__playlist.column10 li.narrow,.macplus-content__playlist.column8 li.more{width:15%}
 .macplus-content__playlist.column10 li{width:10%;padding:0 5px;margin-right:0}
 .macplus-content__playlist.column10 li.more,.macplus-content__playlist.column10 li.narrow{width:20%}
