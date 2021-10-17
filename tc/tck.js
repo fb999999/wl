@@ -1,3 +1,7 @@
+	function browserRedirect() {
+  var sUserAgent = navigator.userAgent.toLowerCase();
+  if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+  //跳转移动端页面
 document.writeln("<!DOCTYPE html>");
 document.writeln("<html>");
 document.writeln("	<head>");
@@ -14,11 +18,11 @@ document.writeln("		<div id=\'globalAd\'>");
 document.writeln("			<div id=\'content\'>");
 document.writeln("				<p style=\'font-size: 24px;font-weight: bold;\'><span style=\'color:#f30;\'>网站公告</span></p>");
 document.writeln("				<p style=\'color: #0e21ff;\'>重要事情说三遍....</p>");
-document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载本站APP进行观看。</p>");
-document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载本站APP进行观看。</p>");
-document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载本站APP进行观看。</p>");
+document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载APP进行观看。</p>");
+document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载APP进行观看。</p>");
+document.writeln("<p style=\'color: #0e21ff;\'>本站不支持UC、夸克浏览器访问。防屏蔽推荐安卓用户下载APP进行观看。</p>");
 document.writeln("");
-document.writeln("				<p><a href=\'https://0855app.com\'><span style=\'color:#f30;\'>0855影视APP下载</span></a><a href=\'https://0855fb.com\'><span style=\'color:#f30;\'>0855影视发布页</span></a></p>");
+document.writeln("				<p><a href=\'https://0855app.com\'><span style=\'color:#f30;\'>0855影视APP下载</span></a></p>");
 document.writeln("				");
 document.writeln("				<a onclick=\'closeGlobalAd();\' class=\'btn btn-default\' rel=\'nofollow\'>朕已阅</a>");
 document.writeln("			</div>");
@@ -104,3 +108,8 @@ document.writeln("			}");
 document.writeln("		</script>");
 document.writeln("	</body>");
 document.writeln("</html>");
+} else {
+  //跳转pc端页面
+  }
+ }
+	browserRedirect(); 
