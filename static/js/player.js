@@ -164,7 +164,7 @@ var MacPlayer = {
 		document.write('<style>.MacPlayer{background: #000000;font-size:14px;color:#F6F6F6;margin:0px;padding:0px;position:relative;overflow:hidden;width:' + this.Width + ';height:' + this.Height + ';min-height:100px;}.MacPlayer table{width:100%;height:100%;}.MacPlayer #playleft{position:inherit;!important;width:100%;height:100%;}</style><div class="MacPlayer">' + '<iframe id="buffer" src="" frameBorder="0" scrolling="no" width="100%" height="100%" style="position:absolute;z-index:99998;"></iframe><iframe id="install" src="" frameBorder="0" scrolling="no" width="100%" height="100%" style="position:absolute;z-index:99998;display:none;"></iframe>' + '<table border="0" cellpadding="0" cellspacing="0"><tr><td id="playleft" valign="top" style="">&nbsp;</td></table></div>');
 		this.offsetHeight = $('.MacPlayer').get(0).offsetHeight;
 		this.offsetWidth = $('.MacPlayer').get(0).offsetWidth;
-		document.write('<scr' + 'ipt src="' + this.Path + this.PlayFrom + '.js?111"></scr' + 'ipt>')
+		document.write('<scr' + 'ipt src="' + this.Path + this.PlayFrom + '.js?1018"></scr' + 'ipt>')
 	},
 	'Down': function() {},
 	'Init': function() {
