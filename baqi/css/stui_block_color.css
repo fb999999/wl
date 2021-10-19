@@ -246,3 +246,46 @@ a:hover{ color: #FF9900;}
 
 }
 .www{color:#f30;line-height: 18px;margin: 10px;position:relative;}	
+
+.tupic img {
+    display: block;
+    margin: auto;
+    width: 100%;
+	margin-bottom:10px
+	}	
+		.am-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .500em 1em;
+    vertical-align: middle;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color 300ms ease-out,border-color 300ms ease-out;
+    transition: background-color 300ms ease-out,border-color 300ms ease-out;
+}
+.am-btn-xs {
+    font-size: 1rem;
+}
+.am-btn-primary {
+    color: #fff;
+    background-color: #0e90d2;
+    border-color: #0e90d2;
+}
+.am-u-sm-12 a{
+    color: #fff;
+}
+.tbmov-notice1{color: #19b955;line-height:16px;margin: 0px 0px 5px 15px;position:relative;/* background:7px center no-repeat #feffe6; */border-radius:4px;zoom:1;font-size:15px;}
+.gggb {color: #FF0000}
